@@ -10,12 +10,12 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from data_utils import get_lm_corpus
-from models.trellisnets.deq_trellisnet import DEQTrellisNetLM
-from modules import radam
-from utils.exp_utils import create_exp_dir
-from utils.data_parallel import BalancedDataParallel
-from utils.splitcross import *
+from DEQModel.data_utils import get_lm_corpus
+from DEQModel.models.trellisnets.deq_trellisnet import DEQTrellisNetLM
+from DEQModel.modules import radam
+from DEQModel.utils.exp_utils import create_exp_dir
+from DEQModel.utils.data_parallel import BalancedDataParallel
+from DEQModel.utils.splitcross import *
 
 
 parser = argparse.ArgumentParser(description='PyTorch DEQ Sequence Model')

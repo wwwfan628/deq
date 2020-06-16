@@ -9,7 +9,7 @@ import os
 from scipy.optimize import root
 import time
 import copy
-from modules.broyden import broyden, analyze_broyden
+from DEQModel.modules.broyden import broyden, analyze_broyden
 
 
 class RootFind(Function):

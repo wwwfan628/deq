@@ -6,7 +6,7 @@ import numpy as np
 
 import sys
 sys.path.append("../../")
-from modules.deq import *
+from DEQModel.modules.deq import *
 
 __author__ = "shaojieb"
 

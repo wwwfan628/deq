@@ -6,9 +6,9 @@ import sys
 import copy
 
 sys.path.append('../../')
-from modules.optimizations import *
-from models.trellisnets.deq_trellisnet_module import TrellisNetDEQModule
-from utils.proj_adaptive_softmax import ProjectedAdaptiveLogSoftmax
+from DEQModel.modules.optimizations import *
+from DEQModel.models.trellisnets.deq_trellisnet_module import TrellisNetDEQModule
+from DEQModel.utils.proj_adaptive_softmax import ProjectedAdaptiveLogSoftmax
 
 __author__ = "shaojieb"
     

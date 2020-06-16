@@ -5,7 +5,7 @@ from collections import Counter, OrderedDict
 import numpy as np
 import torch
 
-from utils.vocabulary import Vocab
+from DEQModel.utils.vocabulary import Vocab
 
 """
 Based on the implementation in the Transformer-XL repo: https://github.com/kimiyoung/transformer-xl

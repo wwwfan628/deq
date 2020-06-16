@@ -6,14 +6,14 @@ import copy
 
 sys.path.append('../../')
 
-from modules.optimizations import weight_norm, VariationalDropout, VariationalHidDropout, VariationalAttnDropout
+from DEQModel.modules.optimizations import weight_norm, VariationalDropout, VariationalHidDropout, VariationalAttnDropout
 
-from models.transformers.deq_transformer_module import TransformerDEQModule
+from DEQModel.models.transformers.deq_transformer_module import TransformerDEQModule
 
-from utils.adaptive_embedding import AdaptiveEmbedding
-from utils.positional_embedding import PositionalEmbedding
-from utils.proj_adaptive_softmax import ProjectedAdaptiveLogSoftmax
-from utils.log_uniform_sampler import LogUniformSampler, sample_logits
+from DEQModel.utils.adaptive_embedding import AdaptiveEmbedding
+from DEQModel.utils.positional_embedding import PositionalEmbedding
+from DEQModel.utils.proj_adaptive_softmax import ProjectedAdaptiveLogSoftmax
+from DEQModel.utils.log_uniform_sampler import LogUniformSampler, sample_logits
 
 
 class WeightSharePositionwiseFF(nn.Module):
